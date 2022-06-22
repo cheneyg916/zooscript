@@ -1,0 +1,35 @@
+{
+  "name": "@zooscript/eslint-config-prettier",
+  "version": "1.0.0",
+  "description": "eslint prettier通用规则",
+  "keywords": [
+    "prettier"
+  ],
+  "author": "cheney <cheneyg916@163.com>",
+  "homepage": "https://github.com/cheneyg916/zooscript.git",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "doc/",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheneyg916/zooscript.git"
+  },
+  "scripts": {
+    "doc": "github-readme-to-html && rm -rf ./doc && mv ./dist ./doc",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "bugs": {
+    "url": "https://github.com/cheneyg916/zooscript/issues"
+  },
+  "dependencies": {
+    "github-readme-to-html": "^1.0.7"
+  }
+}

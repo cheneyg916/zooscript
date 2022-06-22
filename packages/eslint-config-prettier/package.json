@@ -10,10 +10,11 @@
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "index.js",
-    "README.md",
     "doc/",
-    "package.json"
+    "index.js",
+    "CHANGELOG.md",
+    "package.json",
+    "README.md"
   ],
   "publishConfig": {
     "access": "public"

@@ -8,7 +8,10 @@
   "author": "cheney <cheneyg916@gmail.com>",
   "homepage": "https://github.com/cheneyg916/zooscript.git",
   "license": "MIT",
-  "main": "./bin/translate.js",
+  "main": "index.js",
+  "bin": {
+    "ts": "./bin/translate.js"
+  },
   "directories": {
     "bin": "bin",
     "doc": "doc"

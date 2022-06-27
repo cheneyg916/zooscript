@@ -13,10 +13,10 @@ if (!queryStr) {
     if (argv.say == true || argv.S == true) {
         console.log("播放中...".rainbow);
         say.speak(queryStr);
-        return;
+    } else {
+        //进行查词
+        translate(queryStr);
     }
-    //进行查词
-    translate(queryStr);
 }
 
 // 格式化返回数据

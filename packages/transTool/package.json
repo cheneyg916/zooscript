@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "终端翻译工具",
   "keywords": [
+    "node",
     "translate"
   ],
   "author": "cheney <cheneyg916@gmail.com>",
@@ -10,15 +11,12 @@
   "license": "MIT",
   "main": "index.js",
   "bin": {
-    "ts": "./bin/translate.js"
-  },
-  "directories": {
-    "bin": "bin",
-    "doc": "doc"
+    "ts": "./bin/index.js"
   },
   "files": [
-    "bin",
+    "bin/",
     "doc/",
+    "src/",
     "CHANGELOG.md",
     "package.json",
     "README.md"
@@ -31,6 +29,7 @@
     "url": "git+https://github.com/cheneyg916/zooscript.git"
   },
   "scripts": {
+    "build": "rm -rf ./bin && cp -r ./src ./bin",
     "doc": "github-readme-to-html && rm -rf ./doc && mv ./dist ./doc",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },

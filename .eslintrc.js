@@ -10,7 +10,7 @@ module.exports = {
     "plugin:prettier/recommended"
   ],
   plugins: ["@typescript-eslint"],
-  parser: "@babel/parser",
+  parser: "@babel/eslint-parser",
   parserOptions: {
     requireConfigFile: false,
   },
@@ -24,7 +24,6 @@ module.exports = {
     }
   ],
   ignorePatterns: [
-    // ".eslintrc.js",
     "rollup.config.js",
     "package.json",
     "tsconfig.json",

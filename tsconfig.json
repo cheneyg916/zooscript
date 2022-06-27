@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "target": "ES5",
     "module": "ESNext",
     "moduleResolution": "node",
@@ -11,6 +12,6 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["packages/*/src/**/*.ts"],
+  "include": ["packages/*/src/**/*"],
   "exclude": ["dist"]
 }

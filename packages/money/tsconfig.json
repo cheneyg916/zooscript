@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "declaration": true,
+    "declarationDir": "./types",
+    "skipLibCheck": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@zooscript/money",
+  "version": "1.0.0",
+  "description": "money转换",
+  "author": "cheney <cheneyg916@gmail.com>",
+  "homepage": "https://github.com/cheneyg916/zooscript.git",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheneyg916/zooscript.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/cheneyg916/zooscript/issues"
+  }
+}

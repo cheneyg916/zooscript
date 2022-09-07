@@ -1,8 +1,7 @@
 'use strict';
 
-const { fenToYuan } = require('../src/index.ts');
+const { fenToYuan } = require('../lib');
 
 describe('money', () => {
-    expect(fenToYuan(1111111)).to(11111.11)
-    it('needs tests');
+    expect(fenToYuan(12222222, 2)).toBe('122222.22')
 });

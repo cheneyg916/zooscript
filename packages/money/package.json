@@ -11,8 +11,13 @@
     "lib": "lib"
   },
   "files": [
-    "lib"
+    "lib",
+    "package.json",
+    "README.md"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cheneyg916/zooscript.git"
@@ -22,5 +27,6 @@
   },
   "bugs": {
     "url": "https://github.com/cheneyg916/zooscript/issues"
-  }
+  },
+  "gitHead": "2d0b80b538fb1cdca28dd046e68b5e2ffd09401c"
 }
